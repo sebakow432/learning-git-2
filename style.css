@@ -10,7 +10,8 @@ body {
   line-height: 1.9;
   font-family: "Quattrocento Sans", sans-serif;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .container {
