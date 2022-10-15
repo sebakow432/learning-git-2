@@ -2,7 +2,7 @@
 $font-text: 'Quattrocento Sans', sans-serif;
 $font-title: 'Playfair Display', serif;
 $font-color: #ecf0f1;
-$bg-color: #34495e;
+$bg-color: #f1c40f;
 $container-color: #2c3e50;
 
 *, *::before, *::after {
@@ -24,7 +24,7 @@ body{
 
 .container{
     max-width: 1140px;
-    padding: 0 20px;
+    padding: 20px;
     background-color: $container-color;
 
     .song-title{
@@ -42,5 +42,11 @@ body{
 
     p{
         padding: 5px 0
+    }
+
+    img{
+        width: 100%;
+        object-fit: cover;
+        border-radius: 30px;
     }
 }
